@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/register.css">
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <div class="page">
+        <form method="POST" class="formRegister">
+            <h1>Cadastro</h1>
+            <p>Preencha os dados abaixo para criar uma conta.</p>
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required autofocus />
+
+            <label for="phone">Telefone</label>
+            <input type="tel" id="phone" name="phone" placeholder="Digite seu telefone" required />
+
+            <label for="password">Senha</label>
+            <input type="password" id="password" name="password" placeholder="Digite sua senha" required />
+
+            <label for="zip">CEP</label>
+            <input type="text" id="zip" name="zip" placeholder="Digite seu CEP" required />
+
+            <label for="address">Endereço</label>
+            <input type="text" id="address" name="address" placeholder="Digite seu endereço" required />
+
+            <label for="address">Número</label>
+            <input type="text" id="address" name="address" placeholder="Digite seu endereço" required />
+
+            <label for="city">Cidade</label>
+            <input type="text" id="city" name="city" placeholder="Digite sua cidade" required />
+
+            <label for="state">Estado</label>
+            <input type="text" id="state" name="state" placeholder="Digite seu estado" required />
+
+
+
+            <input type="submit" value="Cadastrar" class="btn" />
+
+            <input type="button" value="Voltar" class="btn" id="registerBtn"
+                onclick="window.location.href = '/index.html';" />
+
+        </form>
+    </div>
+</body>
+
+</html>
